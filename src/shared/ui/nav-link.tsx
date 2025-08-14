@@ -14,7 +14,7 @@ export const NavLink = ({ alias, href, className, ...props }: Props) => {
   return (
     <Link
       href={href}
-      className={`transition-all duration-150 ease-in-out ${pathname === href ? 'text-primary font-semibold' : 'hover:bg-primary'} ${className}`}
+      className={`transition-all duration-150 ease-in-out ${pathname === href ? 'text-primary font-semibold' : 'hover:text-primary'} ${className}`}
       {...props}>
       {alias}
     </Link>
